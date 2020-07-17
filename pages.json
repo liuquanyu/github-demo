@@ -1,0 +1,62 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "健康临澧"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/news_list/index",
+			"style": {
+				"navigationBarTitleText": " 新闻列表"
+			}
+		},
+		{
+			"path": "pages/news_detail/index",
+			"style": {
+				"navigationBarTitleText": " 新闻详情"
+			}
+		},
+		{
+			"path":"pages/guahao/index",
+			"style":{
+				"navigationBarTitleText":"挂号"
+			}
+		}
+		
+    
+    ],
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+			"iconPath": "/static/img/home.png",
+			"selectedIconPath": "/static/img/home.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/mine/index",
+	      "iconPath": "/static/img/personal_center.png",
+	      "selectedIconPath": "/static/img/personal_center.png",
+	        "text": "我的"
+	    }]
+	},
+	
+	"sitemapLocation": "sitemap.json",
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#1ABB85",
+		"navigationBarTitleText": "WeChat",
+		"navigationBarTextStyle": "white"
+	},
+	"subPackages": []
+}
